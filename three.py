@@ -1,38 +1,3 @@
-
-"""
-
-Task: 3
-
-This program generates a dataset using mathematical functions and visualizes it using various plots.
-Modules:
-    - numpy: For numerical operations and random number generation.
-    - matplotlib.pyplot: For creating visualizations.
-Functions:
-    - function_apply(x, function): Applies a specified mathematical function to the input x.
-    - generate_dataset(N, x_min, x_max): Generates a dataset of size N with x values in the range [x_min, x_max] 
-      and computes corresponding y values using random mathematical functions.
-    - plot_scatter(X, Y): Creates a scatter plot of the dataset.
-    - plot_histogram(X): Creates a histogram of the x values.
-    - plot_box(Y): Creates a box plot of the y values.
-    - plot_line(X, Y): Creates a line plot of the dataset with sorted x values.
-    - set_random_seed(seed): Sets the random seed for reproducibility.
-Usage:
-    - The script prompts the user to input the number of samples (N), the minimum value for x (x_min), 
-      and the maximum value for x (x_max).
-    - It validates the inputs and generates a dataset.
-    - The dataset is visualized using scatter, histogram, box, and line plots.
-Notes:
-    - The script ensures that the random seed is set for reproducibility.
-    - If x_min > 0, the logarithmic function is included in the possible functions for generating y values.
-    - The script exits with an error message if invalid inputs are provided.
-Example:
-    Run the script and provide the following inputs:
-        Enter the number of samples: 100
-        Enter the minimum value for x: 0
-        Enter the maximum value for x: 10
-    The script will generate a dataset and display the corresponding plots.
-"""
-
 import numpy as np
 import matplotlib.pyplot as plt
 

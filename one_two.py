@@ -1,22 +1,4 @@
-"""
-Task 1.2
-    This program simulates a Rock-Paper-Scissors game between a human player and the computer.
-    The rules of the game are:
-    - Rock beats Scissors.
-    - Scissors beats Paper.
-    - Paper beats Rock.
 
-    The program allows the user to:
-    1. Input their choice (Rock, Paper, or Scissors).
-    2. Play multiple rounds until they decide to quit by typing 'Quit'.
-    3. View the choices of both the user and the computer for each round.
-    4. See the total score (wins, losses, and ties) after each round.
-
-    The program ensures:
-    - Case-insensitive input handling.
-    - Handling of invalid inputs with appropriate prompts.
-    - Random choice generation for the computer using the random module.
-"""
 
 import random
 
