@@ -251,5 +251,9 @@ This program generates a dataset using mathematical functions and visualizes it 
 ## Example
 
 Run the script and provide the following inputs:
-
+```
+Enter the number of samples: 100
+Enter the minimum value for x: 0
+Enter the maximum value for x: 10
+```
 
